@@ -9,7 +9,7 @@ jobs:
       run: |
         git clone https://github.com/xiaopeng163/github-actions-python
         cd github-actions-python
-    - name: install pytest1
+    - name: install pytest11ddddddd
       run: pip install pytest
     - name: run pytest
       run: pytest
