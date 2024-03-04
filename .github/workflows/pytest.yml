@@ -1,5 +1,6 @@
 name: pytest
-on: workflow_dispatch
+on: [push,workflow_dispatch]
+
 jobs:
   pytest:
     runs-on: ubuntu-latest
