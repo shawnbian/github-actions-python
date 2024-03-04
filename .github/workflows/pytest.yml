@@ -1,8 +1,7 @@
 name: pytest
 on: workflow_dispatch
-
-  jobs:
-    pytest:
+jobs:
+  pytest:
     runs-on: ubuntu-latest
     steps:
       - name: clone repository
