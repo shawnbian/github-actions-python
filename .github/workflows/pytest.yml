@@ -1,5 +1,10 @@
 name: pytest
-on: [push,workflow_dispatch]
+#on: [push,workflow_dispatch]
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - master
 
 jobs:
   pytest:
