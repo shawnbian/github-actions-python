@@ -8,7 +8,7 @@ on:
   pull_request:
     types: [opened]
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'
 jobs:
   pytest:
     runs-on: ubuntu-latest
