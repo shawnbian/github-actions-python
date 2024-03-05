@@ -1,12 +1,12 @@
 name: pytest
 #on: [push,workflow_dispatch]
 on: 
-  workflow_dispatch:
-  push:
-    branches:
-      - master
-  pull_request:
-    types: [opened]
+  #workflow_dispatch:
+  #push:
+  #  branches:
+  #    - master
+  #pull_request:
+  #  types: [opened]
   schedule:
     - cron: '* * * * *'
 jobs:
